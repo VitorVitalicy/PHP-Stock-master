@@ -1,0 +1,148 @@
+@charset 'utf-8';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*
+#1EC784
+20CD8D (verde antigo)
+*/
+
+:root{
+    --color01: #C5F1E1;
+    --color02: #1EC784;
+    --color03: #172125;
+}
+
+.bord{
+    border: 1px solid black;
+}
+
+body{
+    background-color: var(--color01);
+}
+
+.workspace{
+    padding-top: 2%;
+    background-color:  var(--color03);
+    height: 90vh;
+}
+
+nav{
+    margin-left: 6%;
+    padding: 20px;
+}
+
+nav img{
+    display: inline-block;
+}
+
+nav div{
+    display: inline-block;
+    text-align: center;
+}
+
+nav a{
+    font-size: 1.3em;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    margin-right: 3%;
+    border-radius: 50em;
+    padding: 12px;
+}
+
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.945);
+    color: black;
+    text-decoration: solid;
+    transition: 0.5s;
+}
+
+nav a:link{
+    transition: 0.4s;
+}
+
+video{
+    margin-top: 5%;
+    margin-left: 8%;
+    width: 50%;
+}
+
+.scroll-design{
+    display: inline-block;
+    text-align: center;
+    width: 40vw;
+    position: absolute;
+    right: 5%;
+    bottom: 18%;
+}
+
+.title-pack{
+    font-size: 4.4em;
+    color: #20CD8D;
+}
+
+.sub-title-pack{
+    color: white;
+}
+
+.scroll-design img{
+    margin-top: 2%;
+}
+
+.top-1{
+    height: 80vh;
+    position: relative;
+}
+
+.top-1 video{
+    width: 30%;
+    position: absolute;
+    right: 6%;
+}
+
+.top-2{
+    background-color: var(--color02);
+    position: relative;
+}
+
+.nav-bottom{
+    position: absolute;
+    bottom: 18%;
+    margin-left: 6%;
+}
+
+.nav-bottom a, .nav-bottom-right a{
+    background-color: var(--color03);
+    color: white;
+    text-decoration: solid;
+    font-size: 1.4em;
+    padding: 20px;
+    border-radius: 20em;
+    margin-right: 20px;
+}
+
+.about-us{
+    width: 60%;
+    padding: 8% 0% 0% 6%;
+}
+
+.about-us p{
+    font-size: 2.0em;
+    font-family: Helvetica;
+}
+
+.nav-bottom-right{
+    position: absolute;
+    bottom: 18%;
+    right: 6%;
+}
+
+footer{
+    background-color: var(--color03);
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
